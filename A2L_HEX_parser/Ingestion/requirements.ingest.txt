@@ -1,0 +1,17 @@
+# Ingestion pipeline dependencies
+# Install into: A2L_HEX_parser/Ingestion/.venv
+
+chromadb==1.5.9
+FlagEmbedding==1.4.0
+PyMuPDF==1.26.5
+tiktoken==0.13.0
+requests==2.32.5
+pandas==3.0.3
+openpyxl==3.1.5
+
+# IMPORTANT: torch from this index is CPU-only in this environment.
+# For GPU usage, install a CUDA-enabled torch wheel source reachable from your network.
+# Example (public PyTorch CUDA index):
+#   pip install --index-url https://download.pytorch.org/whl/cu121 torch torchvision torchaudio
+# Then verify:
+#   python -c "import torch; print(torch.cuda.is_available(), torch.version.cuda)"

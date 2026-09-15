@@ -1,0 +1,12 @@
+chromadb==1.5.9
+FlagEmbedding
+fitz==0.0.1.dev2
+intelhex==2.3.0
+lxml==5.3.1
+lxml==6.1.1
+openpyxl==3.1.5
+pandas==3.0.3
+Requests==2.34.2
+streamlit==1.56.0
+tiktoken==0.8.0
+msal>=1.28.0

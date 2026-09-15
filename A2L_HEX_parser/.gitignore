@@ -1,0 +1,28 @@
+# Local Python environment
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Build and packaged outputs
+build/
+dist/
+*.egg-info/
+
+# Local logs and runtime files
+*.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
